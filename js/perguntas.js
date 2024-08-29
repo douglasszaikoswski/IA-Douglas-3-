@@ -1,30 +1,30 @@
 export const perguntas = [
     {
-        enunciado: "Você chega na academia e vê várias atividades disponíveis. Qual você decide fazer primeiro?",
+        enunciado: "Você chega você chega na mecânica e percebe uma chave 13 no chão, oque você faz??",
         alternativas: [
             {
-                texto: "Começar com um treino de musculação.",
+                texto: "guardar a chave junto as outras",
                 afirmacao: [
-                    "Você levanta pesos e sente a força aumentando.",
-                    "Seu corpo começa a se adaptar e você ganha força."
+                    "Você é uma pessoa boa e guardou do jeito que o chefe gostaria.",
+                    "Seu chefe nem vê que foi você e tu não ganha nada."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Participar de uma aula de spinning.",
+                texto: "coloca no bolso e leva pra casa",
                 afirmacao: [
-                    "Você se sente energizado após a aula intensa.",
-                    "A atividade cardiovascular melhora sua resistência."
+                    "você se sente bem em ter uma chave 13 agora"
+                    "Você guarda ela e fica de boa."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Durante o treino, você percebe que está cansado. O que faz?",
+        enunciado: "Você vê seu colega de trabalho a desmontar um bloco de motor inteiro, oque você faz?",
         alternativas: [
             {
-                texto: "Continua firme e termina o treino.",
+                texto: "finge que ninguém te viu e vai varrer a oficina",
                 afirmacao: [
                     "Você se sente realizado ao completar seu objetivo.",
                     "A persistência traz satisfação e melhora seu condicionamento."
@@ -32,10 +32,10 @@ export const perguntas = [
                 proxima: 3,
             },
             {
-                texto: "Pausa para descansar e hidratar-se.",
+                texto: "Ajuda ele a desmontar tudo",
                 afirmacao: [
-                    "Você recupera suas energias e volta ao treino mais forte.",
-                    "O descanso ajuda na recuperação e evita lesões."
+                    "Você percebe que sobrou parafuso.",
+                    "Guarda eles e finge que não aconteceu nada."
                 ],
                 proxima: 4,
             },
